@@ -14,6 +14,7 @@ let [Balance,setBalance] = useState("0$")
   <div>
   <Dashboard Budget={MonthlyIncome} Balance={Balance} Expenses={Expenses}></Dashboard>
   </div>
+ 
     </div>
   )
 }

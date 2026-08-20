@@ -1,6 +1,8 @@
 import BudgetCard from "./BudgetCard"
 import QuickAccess from "./QuickAccess"
 import RecentTransactions from "./RecentTransactions"
+
+
 function Dashboard({Budget="Unknown",Expenses="Unknown",Balance="Unknown"}){
     return(<div className=" text-white flex flex-col ">
 <div className="flex justify-around w-260">
@@ -12,6 +14,7 @@ function Dashboard({Budget="Unknown",Expenses="Unknown",Balance="Unknown"}){
             <QuickAccess></QuickAccess>
             <RecentTransactions></RecentTransactions>
           </div>
+         
     </div>)
 }
 export default Dashboard
